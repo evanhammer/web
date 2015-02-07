@@ -87,3 +87,4 @@ exclude_generator:
 deploy:
   type: heroku
   repo: git@github.com:evanhammer/web.git
+  branch: hexo
