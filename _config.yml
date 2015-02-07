@@ -86,4 +86,4 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo: git@heroku.com:evanhammer.git
+  repo: git@github.com:evanhammer/web.git
