@@ -1,1 +1,13 @@
-# Evan Hammer 2
+# evanhammer.com
+
+## Dev
+```
+hexo generate
+foreman start
+```
+
+## Deploy
+```
+hexo generate
+git push
+```
