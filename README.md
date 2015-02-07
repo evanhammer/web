@@ -1,2 +1,1 @@
-# web
-Evan Hammer's Website
+# Evan Hammer
