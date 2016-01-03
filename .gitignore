@@ -7,4 +7,3 @@ venv
 */_build/*
 .DS_Store
 node_modules
-
