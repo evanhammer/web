@@ -1,0 +1,12 @@
+<!--Invisible images for preload -->
+
+<div class="hidden">
+	<img src="/images/TopLeaves.jpg" width="1" height="1" alt="" />
+	<img src="/images/Frog.jpg" width="1" height="1" alt="" />
+	<img src="/images/MenuLeafGreen.gif" width="1" height="1" alt="" />
+	<img src="/images/MenuLeafYellow.jpg" width="1" height="1" alt="" />
+	<img src="/images/EvanHammerTitle.gif" width="1" height="1" alt="" />
+	<img src="/images/Album.jpg" width="1" height="1" alt="" />
+</div>
+
+<!-- End Invisible images for preload -->

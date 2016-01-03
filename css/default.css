@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------------------
+default.css
+
+date:	2007.6.6
+author:	evan hammer
+email:	evan@evanhammer.com
+website:www.evanhammer.com
+version:gamma	
+-----------------------------------------------------------------------------*/
+
+/* Basic classes
+-----------------------------------------------------------------------------*/
+.clear {
+	clear:both;
+}
+
+.right, .alignright {
+	float: right;
+}
+
+.left, .alignleft {
+	float: left;
+}
+
+.hidden {
+	display: none;
+}
+
+/* .visibility-hidden {
+	visibility: hidden;
+	line-height: .1em;
+} */

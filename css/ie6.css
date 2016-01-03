@@ -1,0 +1,89 @@
+/*-----------------------------------------------------------------------------
+ie6.css (for ie6 hacks)
+
+date:	2008.12.03
+author:	evan hammer
+email:	evan@evanhammer.com
+website:www.evanhammer.com
+-----------------------------------------------------------------------------*/
+
+/* a reset.css ie setting*/
+/*to enable resizing for IE*/
+input,textarea,select{
+	*font-size:100%;
+}
+
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+#mainSection {
+		width:65%;
+}
+
+#buyCDLink {
+	margin-left: -1px;
+}
+
+#buyCDLink form, #buySelectedMP3sLink input {
+	margin-bottom: -3px;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+#mp3SelectForm {
+	border: 1px #d9da5a solid;
+}
+
+#contactPage .genericItem {
+	margin-right: 37px;
+}
+
+#clickToPlay, #buySelectedMP3sLink {
+	float: none;
+}
+
+#trackList {
+	margin-left: 0px; 
+}
+
+/* #tracks {
+	width: 40em;
+} */
+
+.firstPar {
+	padding-top: .9em;
+}
+
+div#sidebarWrapper {
+	position: absolute;
+	right: 2%;
+	width:expression(document.body.clientWidth > 1000? "236px" : "21.9%" );
+}
+
+div#buyCDLink {
+	position: relative;
+	left: 3px;
+	padding-bottom: -5px;
+}
+
+#functContainer {
+	position: absolute;
+	right: 2%;
+}
+#functMain {
+	width: 312px;
+}
+
+#innerMain {
+	/*display: run-in;*/
+}
+
+select {
+  
+}
+
+#homeImgWrapper {
+	width:expression(document.body.clientWidth > 1200? "800px" : "100%" ); 
+}

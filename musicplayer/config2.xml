@@ -1,0 +1,24 @@
+<?xml version="1.0"?> 
+
+<songList>
+	<song>
+		<name>Harold Called This Morning</name>
+		<tag>haroldcalled</tag>
+		<location>../musicplayer/Evan_Hammer_-_Harold_Called_This_Morning.mp3</location>
+		<position>0</position>
+	</song>
+
+	<song>
+		<name>Hello Love</name>
+		<tag>hellolove</tag>
+		<location>../musicplayer/Evan_Hammer_-_Hello_Love.mp3</location>
+		<position>1</position>
+	</song>
+
+	<song>
+		<name>Bright Day</name>
+		<tag>brightday</tag>
+		<location>../musicplayer/Evan_Hammer_-_Bright_Day.mp3</location>
+		<position>2</position>
+	</song>
+</songList>

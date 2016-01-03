@@ -1,0 +1,770 @@
+/*-----------------------------------------------------------------------------
+style.css
+
+date:	2007.12.31
+author:	evan hammer
+email:	evan@evanhammer.com
+website: www.evanhammer.com
+version: gamma	
+-----------------------------------------------------------------------------*/
+
+
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+@import url("reset.css");
+@import url("default.css"); 
+
+/* Color list ----------------------------------------------------------------
+REAL COLORS:
+gold/yellow:	#fed402;
+light brown: 	#5b444c;
+dark redbrown: 	#330000;
+light background green: #d9da5a;
+darker green: #76a231;
+blue border for background and music player blue : #353f6a;
+dark blue FOR TEXT: #092162;
+
+OLD:
+music player border blue: #213076;
+darker yellow:  #c89c01;
+music player yellow: #e7c30d;
+music player green:: #6d9638; 
+
+-----------------------------------------------------------------------------*/
+
+
+/* BODY STYLE
+-----------------------------------------------------------------------------*/
+html { min-height: 100%; margin-bottom: 1px;}
+
+body {
+	background: #330000 url(/images/TopLeaves.jpg) top right no-repeat;
+	z-index: 3;
+	color: #330000;
+	font-size: 1em; /* .09em = 10.2pt replaced  .95em=11pt */
+	font-family: verdana, sans-serif;
+	text-transform: lowercase;
+}
+
+p {
+	margin-bottom: 2em;
+}
+
+h1, h2, .h1, .h2 {
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+h1, .h1 {
+	display: inline;
+	font-size: 1.6em;
+	line-height: 1.3em;
+
+}
+
+h2, .h2 {
+	display: inline;
+	font-size: 1.4em;
+	line-height: 1.3em;
+
+}
+
+h3, .h3 {
+	display: inline;
+	font-size: 1.3em;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+
+}
+
+h4, .h4 {
+	display: inline;
+	font-size: 1.1em;
+	line-height: 1.3em;
+
+}
+
+h5, .h5 {
+	display: inline;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+h6 , .h6{
+	display: inline;
+	font-size: .7em;
+	line-height: 1.3em;
+
+	
+}
+
+.genericHeader {
+	font-family: georgia, serif;
+	margin-bottom: 20px;
+}
+
+.genericSection {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-bottom: 1.1em;
+	/* padding-bottom: 1.5em; */
+	/* padding-right: 10px; */
+	/* border-bottom: 3px double #76a231; */
+}
+
+.firstPar {
+	padding-top: 1.8em;
+	clear: both;
+}
+
+.genericPar {
+	margin-bottom: 1.5em;
+	line-height: 1.3em;
+	/* word-spacing: .22em; */ /*.15em */
+	/* letter-spacing: .05em; */
+}
+
+.altPar {
+	color: #76a231;
+}
+
+.alternate {
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.altList{
+	background: #76a231;
+}
+
+.genericItem {
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	float: left;
+	border: 3px #330000 solid;
+}
+
+.publishedTitle {
+	font-style: italic; 
+}
+
+/* LINK STYLES
+-----------------------------------------------------------------------------*/
+a {
+	text-decoration: none;
+	color: #092162; /*#76a231;  */
+	font-weight: bold;
+	font-size: .9em;	
+	cursor: pointer;
+}
+
+a:hover {
+	color: #5b444c;
+}
+
+/* MAIN CONTENT STYLES
+-----------------------------------------------------------------------------*/
+#mainSection {
+	position: absolute;
+	top: 0px;
+	left: 145px;
+	text-align: left;
+	z-index: 4;
+	width: 59%;
+}
+
+#updateSectionContainer {
+	margin-top: 0px;
+	margin-left: -40px;
+	float: left;
+	width: 100%;
+}
+
+#mailingListWrapper {
+	position: relative;
+	text-align: center;
+	background: #76a231 url(/images/mailingBack.gif) top left repeat-x;
+	
+	border-top: 1px #d9da5a solid;
+	border-left: 3px #d9da5a solid;
+	border-right: 3px #d9da5a solid;
+	border-bottom: 1px #d9da5a solid;
+	
+	padding-top: 0px;
+	padding-right: 37px;
+	padding-left: 37px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#updateSection {
+	position: relative;
+	padding-top: 30px;
+	padding-right: 37px;
+	padding-left: 37px;
+	padding-bottom: 15px;
+	background: #d9da5a url(/images/mainBackground.gif) bottom left repeat-x;
+	border: 3px solid #353f6a;
+	float: left;
+	width: 100%;
+}
+
+#title {
+	background: url(/images/EvanHammerTitle.gif) top left no-repeat;
+	width: 328px;
+	height: 87px;
+	margin-top: 1em;
+	margin-left: -2px; /* specific negation of pixels in image */
+	margin-bottom: .7em;
+}
+
+#title span {
+	display: none;
+}
+
+#copyright {
+	padding-top: 6px; 
+	clear: both;
+	color: #353f6a;
+	font-weight: bold;
+	font-size: .7em;
+}
+#copyright a  {
+	font-size: 1em;
+	color: #353f6a;
+}
+
+
+
+
+/* HOME PAGE STYLES
+------------------------------------------------------------------------------*/
+
+#homePage {
+	text-align: center;
+}
+
+#homeWrapperContainer {
+	width: 100%;
+}
+
+
+
+#mailingListWrapper .mailingListFormContainer {
+	background: transparent;
+}
+
+#intro {
+	padding: 10px;
+	}
+	
+#homeImgWrapper {
+	max-width: 800px;
+		
+	margin-left:auto;
+	margin-right:auto;
+	
+	width: 99.3%;
+	height: 260px;
+	margin-bottom: 15px;
+	
+	border: 2px solid #330000;
+	text-align: left;
+	
+	overflow: hidden;
+}
+
+#homeImg {
+/* position: absolute; */
+	background: url(/images/mainTitlePhoto.jpg) top center no-repeat;
+	width: 100%;
+	height: 100%;
+	/* height: 260px; */
+	
+}
+
+
+
+/* BLOG PAGE STYLES
+------------------------------------------------------------------------------*/
+
+#finalPar {
+	float: left;
+}
+
+/* MUSIC PAGE STYLES
+-----------------------------------------------------------------------------*/
+#musicPage {
+	
+}
+
+#smallAlbumImg {
+	background: url(/images/Album.jpg) top left no-repeat;
+	width: 238px;
+	height: 220px;
+	margin-top: 8px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	float: left;
+	border: 2px solid #330000;
+
+	/* position: relative;
+		left: -20px; */
+	
+}
+a.playableSong {
+	cursor: url(/images/playButton.cur), pointer;
+	font-weight: normal;
+	/* text-decoration: underline; */
+}
+
+#nonAlbumSection {
+	float: left;
+	margin-top: -27px;
+}
+
+#clickToPlay {
+	width: 283px;
+	height: 25px;
+	background: url(/images/clickToPlay.gif) top left no-repeat;
+	float: left;
+	margin-top: 30px;
+	/* border: 2px solid #d9da5a; */
+}
+
+#buySelectedMP3sLink{
+	width: 83px;
+	height: 41px;
+	float: left;
+}
+
+#trackList {
+	float: left;
+	/* position: absolute; */
+	/* margin-left: 255px; */
+	/* min-width: 23em;  */
+
+}
+
+.trackTitle {
+	color: #092162; /*#76a231; */
+}
+
+.trackListItem {
+	padding-left: 6px;
+	/* font-weight: bold; */
+}
+
+.lyricsListItem {
+	padding-left: 6px;
+	padding-right: 6px;
+	/* float: right;
+	clear:right; */
+}
+
+#musicStoreAndNotesContainter {
+	float: left;
+	margin-top: 15px;
+	
+}
+
+#musicNotesContainer {
+	padding-right: 1.5em;
+	
+}
+
+#musicStoreListContainer {
+	border: 2px #330000 solid;
+	float: left;
+	padding: 7px;
+	text-align: center;
+	margin-right: 2em;
+}
+
+.storeList{
+	margin: .3em;
+	/* float: left; */
+	border: 2px solid #092162;
+}
+
+a.storeList:hover, .storeList:hover {
+	border: 2px solid #76a231;
+}
+
+.storeList input {
+	cursor: pointer;
+}
+
+#buyMP3AlbumLink{
+	background: url(/images/buyMP3AlbumButton.gif) top left no-repeat;
+	width: 129px;
+	height: 58px;
+	display: block;
+}
+
+#buyCDLink {
+	width: 129px;
+	height: 58px;
+	position: relative;
+	left: -1px;
+}
+
+#amazonmp3 {
+	background: url(/images/logo_amazonmp3.gif) top left no-repeat;
+	width: 129px;
+	height: 58px;
+	display: block;
+}
+
+#itunes {
+	background: url(/images/logo_itunes.gif) top left no-repeat;
+	width: 129px;
+	height: 58px;
+	display: block;
+}
+
+.expandedTrackTitle {
+	color: #330000; /*#76a231; */
+}
+#musicPage li {
+	list-style-type: none;
+	margin-left: 23px;
+}
+
+#musicPage ul {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	
+}
+
+.trackEntry {
+	color: #330000;
+	margin-bottom: 25px;
+	border: #092162 3px dashed;
+	min-width: 100%;
+}
+
+.trackEntryLiner {
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+
+
+/* CONNECT PAGE STYLES
+------------------------------------------------------------------------------*/
+
+/*#connectMailContainer {
+	position: relative;
+	color: #d9da5a;
+	
+	font-size: 1em;
+	line-height: 1.6em;
+	
+	background: #353f6a;
+	padding: 30px;
+} */
+#connectMailContainer {
+	background: #76a231 url(/images/mailingBack.gif) top left repeat-x;
+	color: #353f6a;
+}
+
+#longMailingListForm {
+	padding: 0px;
+}
+
+.linkList{
+	float: left;
+	margin-top: .7em; 
+	margin-right: .7em;
+	border: 2px solid #092162;
+}
+
+.linkList:hover {
+	border: 2px solid #76a231;
+}
+
+#amiestreet {
+	background: url(/images/logo_amiestreet.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#facebook {
+	background: url(/images/logo_facebook.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#ilike {
+	background: url(/images/logo_ilike.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#lastfm {
+	background: url(/images/logo_lastfm.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#myspace {
+	background: url(/images/logo_myspace.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#reverbnation {
+	background: url(/images/logo_reverbnation.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#thesixtyone {
+	background: url(/images/logo_thesixtyone.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#twitter {
+	background: url(/images/logo_twitter.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+#youtube {
+	background: url(/images/logo_youtube.gif) top left no-repeat;
+	width: 180px;
+	height: 50px;
+}
+
+
+
+
+
+/* PRESS PAGE STYLES
+------------------------------------------------------------------------------*/
+
+/* MENU STYLES
+-----------------------------------------------------------------------------*/
+#menuContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#logoImg {
+	background: url(/images/Frog.jpg) top left no-repeat;
+	width: 118px;
+	height: 139px;	
+	position: relative;
+	top: 15px;
+	left: 14px;
+	margin-bottom: 15px;
+	/* float: left; */
+}
+
+.menuItem {
+	background: url(/images/MenuLeafYellow.jpg) top left no-repeat;
+	width: 96px;
+	height: 44px;
+	margin-bottom: 10px;
+}
+
+.menuItemCurrent {
+	background: url(/images/MenuLeafGreen.gif) top left no-repeat;
+	width: 96px;
+	height: 44px;
+	margin-bottom: 10px;
+	
+}
+
+.menuItem a {
+	color: #092162;
+	font-size: 19px; /* it sits in a pixel defined image */
+	font-weight: normal;
+	font-family: georgia, serif;
+	/*font-family: "trebuchet MS";*/
+	
+	position: relative;
+	left: 3px;
+	top: 10px;	
+}
+
+.menuItem a:hover {
+	color: #5b444c;
+}
+
+.index #index, .blog #blog, .music #music, .presskit #presskit, .connect #connect, .store #store {
+	background: url(/images/MenuLeafGreen.gif) top left no-repeat;
+}
+
+.index #index a, .blog #blog a, .music #music a, .presskit #presskit a, .connect #connect a, .store #store a, .index #index a:hover, .blog #blog:hover, .music #music a:hover, .presskit #presskit a:hover, .connect #connect a:hover, .store #store a:hover{
+	color: #fed402;
+	cursor: default;
+	text-decoration: none;
+}
+
+#menu {
+	float: left;
+	clear: left;
+
+}
+
+/* IMAGES
+------------------------------------------------------------------------------*/
+
+/* FUNCTIONAL SIDEBAR SECTION
+------------------------------------------------------------------------------*/
+
+#sidebarWrapper {
+	position: absolute;
+	top: 260px;
+	/* position: fixed;
+	bottom: 2%; */
+	right: 6px;
+	z-index: 8;
+	width: 22%; /* 29% */
+	overflow: hidden;
+	text-align: left;
+	max-width: 262px;
+	min-width: 165px;
+}
+
+#socialBadgesWrapper {
+	background: #353f6a;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	border: 3px solid #d9da5a;
+	margin-bottom: 6%;
+	text-align: center;
+}
+
+a.socialBadgeLink img{
+	border: 2px #353f6a solid;
+}
+
+a.socialBadgeLink:hover img{
+	border: 2px #d9da5a solid;
+}
+
+
+/* MUSIC PLAYER SECTION
+------------------------------------------------------------------------------*/
+
+#musicplayerWrapper {
+	border: 3px #d9da5a solid;
+	margin-bottom: 1px;
+	background: #353f6a;
+	overflow: hidden;
+}
+#musicplayer {
+	overflow: hidden;
+	margin-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	
+
+	/* float: left;*/
+	/* added this to object and embed to achieve effect: wmode = \"transparent\" */
+}
+
+.musicPlayerSong {
+	padding-left: 10px;
+	text-align: left;
+	background: #353f6a;
+	border-bottom: #092162 2px solid;
+	font-size: .9em;
+	cursor: pointer;
+}
+
+.musicPlayerSong a {
+	color: #d9da5a;
+}
+
+.musicPlayerSong:hover a {
+	color: #092162;
+}
+
+.musicPlayerSong:hover {
+	background: #d9da5a;
+}
+
+.loaded { 
+	background: #76a231;
+	 
+}
+
+.loaded a {
+	color: #092162; 
+}
+
+#popUpLink {
+	position: relative;
+	top: -4px;
+}
+
+/* MAILING LIST SECTION
+------------------------------------------------------------------------------*/
+.mailingListForm {
+	margin: 0px;
+}
+
+.formSec {
+	border-bottom: 1px solid #d9da5a;
+	padding-bottom: 4px;
+	margin-bottom: 6px;
+}
+
+.mailingListFormContainer {
+	padding: 5px;
+	background: #76a231;
+	color: #353f6a;
+	margin: auto;
+}
+
+.mailingListFormContainer input, .mailingListFormContainer select {
+	text-align: center;
+	background: #d9da5a;
+	color: #353f6a;
+	margin-bottom: 6px;
+	
+}
+
+.mailingDownloadLink {
+	padding: 5px;
+	border: 2px #353f6a solid;
+	background: #d9da5a;
+	cursor: pointer;
+	text-align: center;
+}
+
+.mailingDownloadLink a {
+	color: inherit;
+}
+
+input.mailFormSubmit {
+	background: #d9da5a;
+	color: #330000;
+	cursor: pointer;
+	border: 2px #353f6a solid;
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+}
+
+input.mailFormSubmit:hover, .mailingDownloadLink:hover, .mailingDownloadLink a:hover  {
+	background: #330000;
+	color: #d9da5a;
+}

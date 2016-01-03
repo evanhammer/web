@@ -1,0 +1,29 @@
+Options -Indexes
+
+Redirect 301 /index.html /index.php
+Redirect 301 /album.html /music.php
+Redirect 301 /album.php /music.php
+Redirect 301 /connect.html /connect.php
+Redirect 301 /store.html /music.php
+Redirect 301 /store.php /music.php
+Redirect 301 /presskit.html /presskit.php
+Redirect 301 /lyrics/brightday.html /lyrics/brightday.php
+Redirect 301 /lyrics/haroldcalled.html /lyrics/haroldcalled.php
+Redirect 301 /lyrics/martinkanes.html /lyrics/martinkanes.php
+Redirect 301 /lyrics/hellolove.html /lyrics/hellolove.php
+Redirect 301 /lyrics/rascalandabum.html /lyrics/rascalandabum.php
+Redirect 301 /lyrics/littlegirl.html /lyrics/littlegirl.php
+Redirect 301 /lyrics/whatshewants.html /lyrics/whatshewants.php
+Redirect 301 /lyrics/lunaticsdown.html /lyrics/lunaticsdown.php
+Redirect 301 /lyrics/honeypotdelinquents.html /lyrics/honeypotdelinquents.php
+Redirect 301 /lyrics/abarrenblue.html /lyrics/abarrenblue.php
+Redirect 301 /sitemap.html /sitemap.php
+
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{HTTP_HOST}   !^www\.evanhammer\.com [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^(.*)         http://www.evanhammer.com/$1 [L,R]
+
+

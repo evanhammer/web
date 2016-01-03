@@ -1,0 +1,63 @@
+<?xml version="1.0"?> 
+
+<songList>
+	<song>
+		<name>Bright Day</name>
+		<tag>brightday</tag>
+		<location>../musicplayer/Evan_Hammer_-_Bright_Day.mp3</location>
+	</song>
+	
+	<song>
+		<name>Harold Called This Morning</name>
+		<tag>haroldcalled</tag>
+		<location>../musicplayer/Evan_Hammer_-_Harold_Called_This_Morning.mp3</location>
+	</song>
+
+	<song>
+		<name>Martin Kane's Magic Kandy Kanes</name>
+		<tag>martinkanes</tag>
+		<location>../musicplayer/Evan_Hammer_-_Martin_Kane's_Magic_Kandy_Kanes.mp3</location>
+	</song>
+	
+	<song>
+		<name>Hello Love</name>
+		<tag>hellolove</tag>
+		<location>../musicplayer/Evan_Hammer_-_Hello_Love.mp3</location>
+	</song>
+
+	<song>
+		<name>Rascal and a Bum</name>
+		<tag>rascalandabum</tag>
+		<location>../musicplayer/Evan_Hammer_-_Rascal_and_a_Bum.mp3</location>
+	</song>
+
+	<song>
+		<name>Little Girl</name>
+		<tag>littlegirl</tag>
+		<location>../musicplayer/Evan_Hammer_-_Little_Girl.mp3</location>
+	</song>
+	
+	<song>
+		<name>What She Wants With Me</name>
+		<tag>whatshewants</tag>
+		<location>../musicplayer/Evan_Hammer_-_What_She_Wants_With_Me.mp3</location>
+	</song>
+
+	<song>
+		<name>Lunatics Down</name>
+		<tag>lunaticsdown</tag>
+		<location>../musicplayer/Evan_Hammer_-_Lunatics_Down.mp3</location>
+	</song>
+
+	<song>
+		<name>Honeypot Delinquents</name>
+		<tag>honeypotdelinquents</tag>
+		<location>../musicplayer/Evan_Hammer_-_Honeypot_Delinquents.mp3</location>
+	</song>
+	
+	<song>
+		<name>A Barren Blue</name>
+		<tag>abarrenblue</tag>
+		<location>../musicplayer/Evan_Hammer_-_A_Barren_Blue.mp3</location>
+	</song>
+</songList>
